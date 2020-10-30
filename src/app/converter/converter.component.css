@@ -1,0 +1,21 @@
+:host{
+    text-align: center;
+}
+
+input{
+    border: 1px gray solid;
+    padding: 3px;
+    border-radius: 3px;
+    margin: 10px;   
+}
+h1{
+    color: cornflowerblue;
+}
+b{
+    color: darkcyan;
+    margin: 20px;
+    font-size: xx-large;
+}
+label{
+    margin: 20px;
+}

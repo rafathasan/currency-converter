@@ -1,0 +1,17 @@
+<div class="container" *ngIf="rates">
+    <h1>Currency Converter</h1>
+
+<input size="5" type="number" placeholder="amount" [(ngModel)]="amount">
+
+<label>from: </label>
+<select [(ngModel)]="from" (change)="loadRates()">
+    <option *ngFor="let c  of getAllccurrencies()" [value]="c">{{c}}</option>
+</select>
+
+<label>to: </label>
+<select [(ngModel)]="to" (change)="loadRates()">
+    <option *ngFor="let c  of getAllccurrencies()" [value]="c">{{c}}</option>
+</select>
+<br>
+<b>{{amount.toFixed(2)}} {{from}} = {{convert().toFixed(2)}} {{to}}</b>
+</div>

@@ -1,0 +1,13 @@
+header{
+    background-color: cornflowerblue;
+    padding: 15px;
+}
+
+a{
+    color: cornsilk;
+    text-decoration: none;
+    padding: 15px;
+}
+a:hover{
+    background-color: darkcyan;
+}
